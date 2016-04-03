@@ -4,10 +4,14 @@
 module.exports = function($stateProvider,$urlRouterProvider) {
 
 		
-		$urlRouterProvider.otherwise("/myTasks");
+		$urlRouterProvider.otherwise("/home");
 
 
 		$stateProvider
+					.state('home',{
+						url:"/home",
+						templateUrl:"partials/home.html"
+					})
 					.state('myTasks',{
 						url:"/myTasks",
 						templateUrl:"partials/myTasks.html"
