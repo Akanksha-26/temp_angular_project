@@ -1,0 +1,19 @@
+{
+  "name": "nexthop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "browserify --debug public/js/app.js > public/bundle.js",
+    "start": "node server.js"
+  },
+  "author": "Akanksha",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.3",
+    "angular-ui-router": "^0.2.18",
+    "browserify": "^13.0.0",
+    "express": "^4.13.4"
+  }
+}
