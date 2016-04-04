@@ -1,0 +1,37 @@
+
+body,html{
+	width:100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+.headerHome{
+	
+	background-color: yellow;
+	text-decoration-color: black;
+	
+}
+
+.header-right{
+	background-color: #C0C0C0 ;
+}
+
+/*
+.headerButton{
+	border-radius: 0px;
+	text-decoration-color: #C0C0C0;
+	
+}
+*/
+
+/*
+right-links{
+	padding: 10%;
+}*/
+
+.navbarHeader{
+	height: 10px;
+	width:auto;
+	bottom:0px;
+}
